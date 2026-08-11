@@ -1,102 +1,130 @@
-<div align="center"> <img width="1200" height="475" alt="AI App Banner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" /> </div>
-AI Chatbot
+<div align="center">
+✦ AI Chatbot
+A modern AI-powered chatbot built with React, Vite, and Gemini.
 
-A modified and extended version of an AI chatbot application originally generated with Google AI Studio.
+A customizable conversational AI application with a clean interface, fast performance, and a foundation that's easy to extend.
 
-This project has been customized and further developed with additional code changes and improvements.
+<br />
+Features · Getting Started · Configuration · Development
 
+<br /> <img src="https://placehold.co/1200x500/0f172a/ffffff?text=AI+Chatbot" alt="AI Chatbot Preview" width="100%" /> </div>
 ✨ Features
-🤖 AI-powered chatbot
-💬 Interactive chat interface
-⚡ Fast development with Vite
-🔑 Gemini API integration
-🎨 Customizable user interface
-🛠️ Easily extendable for additional features
+🤖 AI Conversations — Chat naturally with an AI powered by Gemini.
+⚡ Fast & Lightweight — Built with Vite for a fast development experience.
+🎨 Modern Interface — Clean and responsive chat experience.
+💬 Interactive Chat — Designed for smooth, real-time conversations.
+🔧 Customizable — Easy to modify and extend with your own features.
+🔐 Environment Based Configuration — API credentials are kept outside the source code.
+🛠️ Tech Stack
+Technology Purpose
+React User interface
+Vite Development & build tooling
+Gemini API AI capabilities
+Node.js Runtime & package management
+
 🚀 Getting Started
 Prerequisites
-
-Make sure you have the following installed:
+Make sure you have installed:
 
 Node.js
 npm
+Installation
+Clone the repository:
 
-1. Clone the repository
-   git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-   cd YOUR-REPOSITORY
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+cd YOUR-REPOSITORY
 
-Replace YOUR-USERNAME/YOUR-REPOSITORY with your GitHub repository.
+Install the dependencies:
 
-2. Install dependencies
-   npm install
+npm install
 
-3. Configure the Gemini API
-
-Create a .env.local file in the root directory:
+🔑 Configuration
+Create a .env.local file in the root of the project:
 
 GEMINI_API_KEY=your_gemini_api_key
 
 Replace your_gemini_api_key with your own Gemini API key.
 
-Important: Never commit your API key to GitHub.
+Keep your API key private.
 
-Make sure .env.local is included in your .gitignore.
+Never commit .env.local or expose your Gemini API key in a public repository.
 
-4. Run the development server
-   npm run dev
+Make sure your .gitignore contains:
 
-The application will then be available at the local address shown in your terminal.
+.env
+.env.local
+.env.\*.local
 
-🏗️ Build for Production
+💻 Development
+Start the development server:
 
-To create a production build:
+npm run dev
+
+Vite will display the local development URL in your terminal.
+
+📦 Production Build
+Create an optimized production build:
 
 npm run build
 
-To preview the production build locally:
+Preview the production build locally:
 
 npm run preview
 
-🔐 Environment Variables
+📁 Project Structure
+A typical project structure looks like this:
 
-This project uses the following environment variable:
+.
+├── public/
+├── src/
+│ ├── components/
+│ ├── App._
+│ └── main._
+├── .env.local
+├── .gitignore
+├── index.html
+├── package.json
+└── README.md
 
-Variable Description
-GEMINI_API_KEY API key used to access the Gemini API
+The exact structure may vary depending on the features and components added to the project.
 
-Do not share or commit your API key publicly.
+🎯 About
+This project started from an AI chatbot application generated with Google AI Studio and has since been modified, customized, and extended with additional development.
 
-📝 Original Project
-
-This project was originally generated using Google AI Studio and has subsequently been modified and extended.
-
-Original AI Studio project:
+The original project can be viewed through Google AI Studio:
 
 https://ai.studio/apps/bundled/chatterbots
 
-The original project and applicable third-party components remain subject to their respective licenses and terms.
+This repository represents the customized version of the application.
 
-📜 License
+🧩 Customization
+The project is designed to be easy to adapt.
 
-This project includes code originally distributed under the Apache License 2.0.
+You can extend it with features such as:
 
-Copyright and license notices from the original project have been retained where applicable.
+Conversation history
+Multiple AI personalities
+Custom system prompts
+Markdown rendering
+File and image uploads
+Authentication
+Persistent conversations
+Streaming responses
+Custom themes
+Additional AI models
+🤝 Contributing
+Contributions, suggestions, and improvements are welcome.
 
-You may use, modify, and distribute the applicable code in accordance with the Apache License 2.0.
+If you'd like to contribute:
 
-See the LICENSE file for the full license text.
+Fork the repository
+Create a new branch
+Make your changes
+Commit your changes
+Open a Pull Request
 
-Modifications
+<div align="center">
+Built for conversations. Designed for possibilities.
+⭐ If you find this project useful, consider giving it a star.
 
-This repository contains modifications and additional code made after the original project was created.
-
-Modified files may contain additional attribution or modification notices where applicable.
-
-⚠️ Disclaimer
-
-This project is provided for development and educational purposes.
-
-The application may depend on third-party services, APIs, libraries, and assets that are subject to their own terms, licenses, and usage policies.
-
-You are responsible for obtaining and maintaining any required API keys and for complying with the applicable terms of those services.
-
-Built with ❤️ using React, Vite, and Gemini API.
+</div>
