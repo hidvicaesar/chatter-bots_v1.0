@@ -21,7 +21,7 @@ A modern, fast, and customizable AI-powered chatbot built with **React**, **Vite
 - 🎨 **Modern Interface** — Clean and responsive chat experience.
 - 💬 **Interactive Chat** — Designed for smooth, real-time conversations.
 - 🔧 **Customizable** — Easy to modify and extend with your own features.
-- 🔐 **Environment-Based Configuration** — API credentials are kept safely outside the source code.
+- 🔐 **Environment-Based Configuration** — API credentials are kept safely outside the source code..
 
 ---
 
