@@ -16,7 +16,7 @@ A modern, fast, and customizable AI-powered chatbot built with **React**, **Vite
 
 ## ✨ Features
 
-- 🤖 **AI Conversations** — Chat naturally with an AI powered by Gemini Ai.
+- 🤖 **AI Chatbot Conversations** — Chat naturally with an AI powered by Gemini Ai.
 - ⚡ **Fast & Lightweight** — Built with Vite for a fast development experience.
 - 🎨 **Modern Interface** — Clean and responsive chat experience.
 - 💬 **Interactive Chat** — Designed for smooth, real-time conversations.
