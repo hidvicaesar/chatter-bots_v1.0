@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✦ AI Chatbot
+# ✦ AI Chatbot Conversations
 
 A modern, fast, and customizable AI-powered chatbot built with **React**, **Vite**, and **Gemini API**.
 
